@@ -43,7 +43,7 @@ ChatMenu 是一个专为 MCDR 设计的轻量级聊天栏菜单插件。它允�
 - [daycount_nbt ](https://github.com/alex3236/daycount-NBT/) >= 2.2.1
 
 ### 安装步骤
-1. 将插件文件夹 `chat_menu` 放入 MCDR 的 `plugins` 文件夹中
+1. 将插件 `chat_menu.mcdr` 放入 MCDR 的 `plugins` 文件夹中
 2. 确保已安装 [daycount_nbt ](https://github.com/alex3236/daycount-NBT/)
 3. 重启 MCDR 或使用 `!!MCDR plugin load chat_menu.mcdr` 加载插件
 4. 插件会自动生成配置文件 `config/chat_menu.json`
