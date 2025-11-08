@@ -80,12 +80,20 @@ ChatMenu 是一个专为 MCDR 设计的轻量级聊天栏菜单插件。它允�
 | `copy`、`c`      | 将给定文本复制到剪切板  | `hover`:设置悬浮文本,`value`:设置被复制的文本 |
 | `command`、`cmd` | 将给定的文本作为指令运行 | `hover`:设置悬浮文本,`value`:设置要执行的指令 |
 | `fill`、`f`      | 使用给定的文本填充聊天栏 | `hover`:设置悬浮文本,`value`:设置被填充的文本 |
+## 注意事项
 
-⚠️注意:  
-对 `command` 标签的说明：
-* 对于`Minecraft <1.19.1`，如果给定的文本不以 `"/"` 开头，给定的文本将会被当做聊天信息发送至服务端。借此，玩家在点击被修饰的文本后可以自动执行 MCDR 指令
-* 对于`Minecraft >=1.19.1`，只有以 `"/"` 开头的字符串，即代表指令的字符串，可以被用作 `run_command` 动作的值  
-对于其他不以 `"/"` 开头的字符串，客户端将拒接发送对应的聊天消息<sub> [[Issue #203](https://github.com/Fallen-Breath/MCDReforged/issues/203)]</sub>
+⚠️ **注意**：  
+
+若无法与聊天栏中的菜单项进行点击交互，您可能需要安装 [LetMeClickAndSend](https://github.com/Fallen-Breath/LetMeClickAndSend) 客户端模组。
+
+对 `command` 标签在不同 Minecraft 版本中的行为说明：
+
+- **Minecraft < 1.19.1**  
+  如果给定的文本不以 `"/"` 开头，文本将被当作聊天信息发送至服务端。借此，玩家点击后可以自动执行 MCDR 指令。
+
+- **Minecraft >= 1.19.1**  
+  只有以 `"/"` 开头的字符串（即标准指令格式）才能用作 `run_command` 动作的值。  
+  对于其他不以 `"/"` 开头的字符串，客户端将拒绝发送对应的聊天消息。<sub>[[Issue #203](https://github.com/Fallen-Breath/MCDReforged/issues/203)]</sub>
 
 ### message支持的变量:
 
