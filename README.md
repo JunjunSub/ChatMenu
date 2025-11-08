@@ -123,6 +123,8 @@ ChatMenu 是一个专为 MCDR 设计的轻量级聊天栏菜单插件。它允�
 
 ## 配置文件说明
 
+![ChatMenu-default](https://github.com/JunjunSub/ChatMenu/blob/main/images/default.png)
+
 ### 默认配置结构
 ```json
 {
