@@ -1,0 +1,15 @@
+{
+  "id": "chat_menu",
+  "version": "1.0.0",
+  "name": "ChatMenu",
+  "description": {
+    "en_us": "Lightweight Server Chat Menu",
+    "zh_cn": "轻量的服务器聊天栏菜单"
+  },
+  "author": "Aamt",
+  "link": "https://github.com/JunjunSub/ChatMenu",
+  "dependencies": {
+    "daycount_nbt": ">=2.2.1",
+    "MCDReforged": ">= 2.2.0"
+  }
+}
