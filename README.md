@@ -4,6 +4,8 @@
 
 ChatMenu 是一个专为 MCDR 设计的轻量级聊天栏菜单插件。它允许玩家通过简单的聊天命令快速访问各种功能，无需复杂的GUI界面，直接在聊天栏中提供丰富的交互体验。
 
+![ChatMenu-Survival](https://github.com/JunjunSub/ChatMenu/blob/main/images/Survival.png)
+
 ## 核心特性
 
 ### 🎯 轻量高效
