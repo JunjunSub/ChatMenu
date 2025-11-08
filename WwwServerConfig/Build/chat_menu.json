@@ -1,0 +1,35 @@
+{
+    "message": [
+        "<text>§7========== §r§6§lWwwServer Menu §rv4.3.0 §r§7==========</text>",
+        "<text>当前在 §c§lCreative Server §r!</text>",
+        "<command(h=使用!!op获取权限)(v=!!op)>§7§otips:使用黄色选框功能需谨慎哟~可能会影响其他玩家或世界呐！</command>",
+        "<text>§9§l服务器列表 >> </text><command(h=使用/server survival去生存服)(v=/server survival)>[Survival] </command><command(h=使用/server mirror去镜像服)(v=/server mirror)>[Mirror] </command><command(h=使用/server creative去创造服)(v=/server creative)>[Creative] </command>",
+        "<text>§a§l维度 >> </text><command(h=传送至主世界对应坐标)(v=/execute in minecraft:overworld run teleport ~ ~ ~)>[Overworld] </command><command(h=传送至地狱对应坐标)(v=/execute in minecraft:the_nether run teleport ~ ~ ~)>[Nether] </command><command(h=传送至末地对应坐标)(v=/execute in minecraft:the_end run teleport ~ ~ ~)>[End] </command><command(h=传送至末地00坐标)(v=/execute in minecraft:the_end run teleport 0 ~ 0)>[End00] </command>",
+        "<text>§c§l效果 >> </text><command(h=清理效果)(v=/effect clear @s)>[Clear] </command><command(h=力量)(v=/effect give @s minecraft:strength 999999 255)>[Strength] </command><command(h=抗性提升)(v=/effect give @s minecraft:resistance 999999 255)>[Resistance] </command><command(h=生命恢复)(v=/effect give @s minecraft:regeneration 999999 255)>[Regeneration] </command>",
+        "<text>§d§l世界 >> </text><command(h=清理掉落物)(v=/kill @e[type=minecraft:item])>§e[Item] </command><command(h=清理经验球)(v=/kill @e[type=minecraft:experience_orb])>§e[XPorb] </command><fill(h=清理范围内非玩家实体/kill @e[type=!minecraft:player,distance=..该位手动填写数字],如/kill @e[type=!minecraft:player,distance=..10]即清理10m半径球内非玩家实体)(v=/kill @e[type=!minecraft:player,distance=..])>§e[KillD@e] </fill><command(h=运行游戏)(v=/tick freeze off)>§e[FreezeOff] </command><command(h=暂停游戏)(v=/tick freeze on)>§e[FreezeOn] </command>",
+        ""
+    ],
+    "sub_menus": {
+        "we": {
+            "message": [
+                "<text>§lWE >> </text><fill(h=获取工具)(v=//wand )>[Wand] </fill><fill(h=使用//set 0清理选区)(v=//set 0 )>[Set0] </fill><fill(h=使用//undo撤销操作)(v=//undo )>[Undo] </fill><fill(h=使用//set [方块]填充选区)(v=//set )>[Set] </fill><fill(h=使用//copy复制选区)(v=//copy )>[Copy] </fill><fill(h=使用//cut剪切选区)(v=//cut )>[Cut] </fill><fill(h=使用//paste粘贴剪贴板内容)(v=//paste )>[Paste] </fill><fill(h=使用//replace [被替换的方块] [替换成的方块]替换选区内的方块)(v=//replace )>[Replace] </fill><fill(h=使用//rotate [Y] [X] [Z]旋转剪贴板)(v=//rotate )>[Rotate] </fill><fill(h=使用//flip [方向]翻转/镜像剪贴板)(v=//flip )>[Flip] </fill><fill(h=使用//stack [次数] [方向]堆叠选区)(v=//stack )>[Stack] </fill>"
+            ],
+            "comment": "小木斧"
+        },
+        "wem": {
+            "message": [
+                "<text>§lWE Mirrir>> </text><fill(h=复制选区)(v=//copy )>[copy] </fill><fill(h=镜像剪贴板)(v=//flip  )>[flip] </fill><fill(h=旋转剪贴板180度)(v=//rotate 180 0 0 )>[rotate] </fill><fill(h=粘贴剪贴板)(v=//paste )>[paste] </fill>"
+            ],
+            "comment": "WE镜像粘贴"
+        }
+    },
+    "random_text": {
+        "random_text": [
+            "随机文本R1",
+            "随机文本R2"
+        ]
+    },
+    "server_start_date": "2023-11-04",
+    "nbt_mode": true,
+    "nbt_file": "server/world/level.dat"
+}

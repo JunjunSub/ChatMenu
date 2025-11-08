@@ -1,0 +1,72 @@
+{
+    "message": [
+        "<text>§7======== §r§6§lWwwServer Menu §rv4.3.2 §r§7========</text>",
+        "<text>当前在 §b§l生存服 </text>",
+        "<text>§7§otips:使用</text><command(h=点击发送!w打开主菜单！)(v=!w)> !w </command><text>§7和</text><command(h=点击发送!wl打开子菜单！)(v=!wl)> !wl </command><text>§7调用菜单~</text>",
+        "<text>§9§l服务器列表 >> </text><command(h=使用/server mirror去镜像服)(v=/server mirror)>[镜像] </command><command(h=使用/server creative去创造服)(v=/server creative)>[创造] </command><command(h=使用/server build去建筑)(v=/server build)>[建筑]</command>",
+        "<text>§f§l信息类 >> </text><command(h=使用!!here公开当前坐标)(v=!!here)>[这里] </command><fill(h=使用!!vs [ID]查询玩家位置)(v=!!vs )>[人呢] </fill><command(h=使用!!wp list打开路标列表)(v=!!wp list)>[让咱看看] </command><command(h=使用/ledger inspect查询历史记录)(v=/ledger inspect)>[查询] </command><fill(h=使用/finder在指定范围内查找指定方块或物品)(v=/finder )>[查找] </fill>",
+        "<text>§f§l工具类 >> </text><command(h=使用/playerManager list打开假人列表)(v=/playerManager list)>[萝卜列表] </command><command(h=使用/spectator切换旁观者)(v=/spectator)>[旁观] </command><command(h=使用!!mirror打开镜像服菜单)(v=!!mirror)>[镜像] </command>"
+    ],
+    "sub_menus": {
+        "whp": {
+            "message": [
+                "<text>快速更改服务器伪和平</text>",
+                "<command(v=!!ac send whp_all_spawn)>[生成全部伪和平] </command><command(v=!!ac send whp_restore)>[恢复伪和平] </command><command(v=/playerManager spawn Day)>[永昼] </command>"
+            ],
+            "comment": "快速恢复伪和平"
+        },
+        "tool_bot": {
+            "message": [
+                "<text>§e批量调用tool开头10个假人</text>",
+                "<command(v=!!ac send bot_tool_spawn)>[生成假人] </command><command(v=!!ac send bot_tool_kill)>[下线假人] </command>"
+            ],
+            "comment": "快速调用10个临时假人"
+        },
+        "wlist": {
+            "message": [
+                "<text>§e需要权限组为Helper才可操作</text>",
+                "<fill(h=添加全服白名单)(v=!!wlist addall )>[添加白名单] </fill><fill(h=删除全服白名单)(v=!!wlist delall )>[删除白名单] </fill><command(h=白名单列表)(v=!!wlist list)>[花名册] </command><command(h=封禁/禁言玩家)(v=!w bh)>[封禁/禁言] </command>"
+            ],
+            "comment": "修改服务器成员"
+        },
+        "whpzsj": {
+            "message": [
+                "<text>§e单独调整whp_zsj假人</text>",
+                "<command(v=/playerManager spawn whp_zsj)>[生成假人] </command><command(v=/player whp_zsj use)>[Use] </command><command(v=/player whp_zsj kill)>[下线假人] </command>"
+            ],
+            "comment": "单独调整whp_zsj假人"
+        },
+        "ysm": {
+            "message": [
+                "<text>§e调整ysm</text>",
+                "<command(v=/ysm model reload)>[重新载入] </command><fill(h=删除全服白名单)(v=/ysm auth )>[添加权限] </fill>"
+            ],
+            "comment": "调整ysm"
+        },
+        "dTR": {
+            "message": [
+                "<text>§e更新抑制有可能会导致存档崩溃以及区块异常！</text>",
+                "<text>§e使用前请确保qb备份完成，其他机器关机，并告知其他玩家！</text>",
+                "<command(h=崩个服玩玩，嘻嘻)(v=!!ac send dTR_true)>[临时开启dTR] </command><command(h=呜呜，咱错了)(v=!!ac send dTR_false)>[关闭dTR] </command>"
+            ],
+            "comment": "开启重新引入粉板瞬时更新循环功能"
+        },
+        "bh": {
+            "message": [
+                "<text>§e需要权限组为Helper才可操作 </text><text(h=持续时间可以用秒（s）、分钟（m）、小时（h）、天（d）、年（y）表示，且支持这些单位的组合。如：5y3d9h3m8s)>[时间单位]</text>",
+                "<fill(h=/ban 玩家 原因)(v=/ban )>[永久封禁] </fill><fill(h=/tempban 玩家 时间 原因)(v=/tempban )>[临时封禁] </fill><fill(h=/tempmute 玩家 时间 原因)(v=/tempmute )>[临时禁言] </fill><fill(h=/pardon 玩家)(v=/pardon )>[大赦！] </fill>"
+            ],
+            "comment": "封禁/禁言玩家"
+        }
+    },
+    "random_text": {
+        "random_text": [
+            "随机文本1",
+            "随机文本2"
+        ]
+    },
+    "trigger_command": "w",
+    "server_start_date": "2023-01-01",
+    "nbt_mode": true,
+    "nbt_file": "server/world/level.dat"
+}
