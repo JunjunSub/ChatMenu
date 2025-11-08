@@ -132,7 +132,7 @@ ChatMenu 是一个专为 MCDR 设计的轻量级聊天栏菜单插件。它允�
 
 ![ChatMenu-default](https://github.com/JunjunSub/ChatMenu/blob/main/images/default.png)
 
-### 默认配置结构
+### 默认配置
 ```json
 {
     "trigger_command": "w",  # 触发命令，默认为w，即!w
