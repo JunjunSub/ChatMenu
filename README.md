@@ -133,7 +133,7 @@ ChatMenu 是一个专为 MCDR 设计的轻量级聊天栏菜单插件。它允�
         "<url(v=https://space.bilibili.com/591893685)(h=快关注!)>§c点我打开哔哩主页喵</url>",
         "<copy(v=https://github.com/JunjunSub/ChatMenu)(h=快Star!)>§d点我复制插件链接到剪贴板喵</copy>",
         "<command(v=/ping)(h=查看连接延迟)>§e点我运行指令喵</command>",
-        "<fill(v=猪务器已存活 {date} 游戏已运行 {date_nbt} 天！ )(h=泰铢勒弥)>§f点我填充当前服务器运行天数瞄</fill>"
+        "<fill(v=猪务器已存活 {date} 游戏已运行 {date_nbt} 天!)(h=泰铢勒弥)>§f点我填充当前服务器运行天数瞄</fill>"
     ],
     "sub_menus": {  # 子菜单组
         "ms1": {
@@ -160,6 +160,6 @@ ChatMenu 是一个专为 MCDR 设计的轻量级聊天栏菜单插件。它允�
         ]
     },
     "server_start_date": "2023-11-04",  # 服务器启动日期
-    "nbt_mode": True,  # 是否启用NBT模式
+    "nbt_mode": true,  # 是否启用NBT模式
     "nbt_file": "server/world/level.dat"  # NBT数据文件路径
 }
